@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+html{
+
+    font-size:62.5%;
+}
+
+
+
+
+
+
+header{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: orange;
+    width:100%;
+    height:335px;
+    
+
+}
+
+.header--container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width:90%;
+    height:70%;
+
+    border:2px solid black;
+
+}
+
+
+.header--container__logo{
+
+    display: block;
+    width:200px;
+    height:40px;
+
+    background: url("./assets/img/logo.svg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
