@@ -299,15 +299,127 @@ p1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 800px;
+    background: var(--black);
+    padding:10px;
+    margin:0 auto;
+}
 
-    background: var(--warm-black);
+
+.seccion--beneficios__divLogo{
+
+    width:100px;
+    height:100px;
+    background-color: var(--black);
+    position:relative;
+    bottom:40px;
+    background:url("./assets/icons/batata.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.seccion--beneficios__divTextos{
+
+    width:100%;
+    height:100px;
+    background-color: var(--black);
+
+}
+
+.seccion--beneficios__divTextos h2 {
+
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.seccion--beneficios__divTextos p {
+
+    color:gray;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
 
 
 
+
+
+.seccion--beneficios__divTarjetas{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height:100%;
+    justify-content: space-evenly;
+}
+
+.seccion--beneficios__divTarjetas article {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height:22%;
+    background-color: var(--warm-black);
+    width:80%;
+    padding: 10px;
+    border-radius: 20px;
 
 
 
 }
+
+
+.seccion--beneficios__divTarjetas article span{
+
+    width:20px;
+    height:20px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+}
+
+.seccion--beneficios__divTarjetas__title{
+
+    color: white;
+    font-size: 1.6rem;
+
+}
+
+.clock{
+
+    background: url("./assets/icons/clock.svg");
+}
+
+.eyes{
+
+    background: url("./assets/icons/eye.svg");
+
+}
+
+.dolar{
+
+    background:url("./assets/icons/dollar-sign.svg");
+
+}
+
+.checked{
+   
+    background: url("./assets/icons/check-circle.svg");
+
+}
+
+.seccion--beneficios__divTarjetas__text{
+    color: var(--grey);
+}
+
 
 
 
