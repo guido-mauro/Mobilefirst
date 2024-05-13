@@ -370,7 +370,7 @@ p1{
     padding: 10px;
     border-radius: 20px;
 
-
+    min-height:100px;
 
 }
 
@@ -418,7 +418,138 @@ p1{
 
 .seccion--beneficios__divTarjetas__text{
     color: var(--grey);
+    text-align: center;
 }
+
+/* ACA ARRANCA LA SECCION COMODIN */
+
+.bitcoin-img__container{
+    
+    background:url("./assets/img/bitcoinbaby2x.jpg") ;
+    background-size: 100%;
+    background-position: center;
+
+    background-repeat: no-repeat;
+    width:100%;
+    height:50vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    max-width: 800px;
+    margin:0 auto;
+
+
+}
+
+.bitcoin-img--container__h2{
+
+
+    font-size: 2rem;
+    color: white;
+    margin-top: 105px;
+
+}
+
+
+
+
+/* display: flex;
+flex-direction: column;
+align-items: center;
+margin:0 auto;
+height:642px;
+background:gray;
+max-width: 800px;
+padding:10px;
+ */
+
+
+
+.seccion-planes{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:642px;
+    background-color:var(--just-white)
+
+
+}
+
+
+.seccion-planes__divTextos{
+
+    font-size: 2rem;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap:20px;
+
+}
+
+
+.seccion-planes--divTextos__h2{
+
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.seccion-planes--divTextos__p{
+
+    font-size: 1.4rem;
+    text-align: center;
+    color: var(--grey);
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
