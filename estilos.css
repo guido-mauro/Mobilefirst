@@ -675,6 +675,40 @@ padding:10px;
 
 
 
+footer{
+
+    display: flex;
+    width:100%;
+    height:150px;
+    background-color: var(--bitcoin-orange);
+
+}
+
+
+.estandar{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+.seccion-redes ul li {
+
+    color:white;
+    font-size :1.4rem;
+    margin:10px 0;
+    
+}
+
+.seccion-redes ul li a{
+    color: var(--just-white);
+    text-decoration:none;
+}
+
+
+
+
 
 
 
