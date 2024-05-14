@@ -467,184 +467,90 @@ padding:10px;
 
 /* ACA ARRANCA LA SECCION DE LAS TARJETAS DE PLANES */
 
+.main-plans-container{
 
-.seccion-planes{
-
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    height:642px;
-    background-color:var(--just-white);
     width:100%;
-    max-width:800px;
-
+    min-width:320px;
+    padding-bottom:70px;
+    text-align: center;
+    background-color: antiquewhite;
+    max-width: 800px;
     margin:0 auto;
 
 }
 
+.plans-tittle{
 
-.seccion-planes__divTextos{
-
-    font-size: 2rem;
-    text-align: center;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    gap:20px;
-
-}
-
-
-.seccion-planes--divTextos__h2{
-
-    font-size: 2rem;
-    text-align: center;
     width:90%;
+    min-width: 288px;
+    height: auto;
+    margin:0 auto;
+    margin-bottom: 50px;
 }
 
-.seccion-planes--divTextos__p{
+.plans-tittle h2 {
 
-    font-size: 1.4rem;
-    text-align: center;
-    color: var(--grey);
-    width:90%;
-
-
-    
-}
-
-
-
-
-.seccion-planes_tarjeta{
-
-    width:55%;
-    height:215px;
-
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px  solid black;
-    border-radius: 5px;
-    max-width: 320px;
-}
-
-.parrafito__posrelative {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    bottom: 16px;
-    
-    font-size: 1.2rem;
+    padding-top: 50px;
+    font-size:2.4rem;
     font-weight: bold;
-    width: 100px;
-    height: 30px;
-    padding: 4px;
-    border-radius: 5px;
-    
-    color: white;
-    background-color: #f7931a;
-    border: 1px solid black;
+    line-height: 2.6rem;
+    color:var(--black);
+
 }
 
-.divPlanes{
-    
-    display:flex;
+.plans-tittle p {
+
+    padding-top: 30px;
+    font-size:1.4rem;
+    font-weight:500;
+    line-height: 1.8rem;
+    color:#757575;
+
+}
+
+/* aca hay algo rarito */
+
+.plans--container--card{
+
+    position: relative;
+    width:70%;
+    min-width: 230px;
+    max-width: 300px;    
+    height:250px;
+    margin:50px auto 0;    
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 10px;
+
+}
+
+.recommended {
+    display: block;
+    position: absolute;
+    height: 32px;
+    background:var(--bitcoin-orange);
+    margin: 0 auto;
+    width: 120px;
+    margin: 0 auto;
+    top: -15px;
+    left: calc(50% - 60px);
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color:white;
+    padding: 5px 5px 5px 5px;
+
+
+
+}
+
+
+
+.plan-info-container{
+    display: flex;
     flex-direction: column;
     align-items: center;
-    
+    justify-content: space-evenly;
+    height: 100%;
 }
-
-.divPlanes_h3{
-
-    margin-bottom: 10px;
-    
-
-}
-
-
-.divPlanes_p {
-
-    margin-bottom: 10px;
-    font-size: 5rem;
-
-
-}
-.divPlanes_p span{
-
-    font-size: 1rem;
-
-}
-
-.divPlanes_p1{
-
-    font-size: size 1.2rem;
-    color: var(--grey);
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.divPlanes_button{
-
-    width: 150px;
-    height: 30px;
-    border: solid 2px orange;
-
-
-
-}
-
-
-.divPlanes_spanFlecha{
-
-    display:inline-block;
-    width:10px;
-    height:10px;
-    
-    background:url("./assets/icons/orange-right-arrow.svg");
-    background-size:100%;
-    background-position: center;
-    
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
