@@ -521,6 +521,7 @@ padding:10px;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 10px;
+    border: 1px solid var(--bitcoin-orange);
 
 }
 
@@ -550,7 +551,110 @@ padding:10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
     height: 100%;
 }
+
+
+.plan-card--title{
+    font-size: 1.6rem;
+    margin-top: 30px;
+}
+
+.plan-card--price{
+   
+    font-size: 5.2rem;
+    padding:5px 0; 
+}
+
+.plan-card--price span{
+    
+    font-size: 1rem;
+    
+}
+
+
+.plan-card--saving{
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    color: #75757575;
+}
+
+
+.plan-card-ca {
+    height: 48px;
+    width: 150px;
+    border: 2px solid var(--bitcoin-orange);
+    background-color: #faf8f7;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+
+.plan-card-ca span{
+
+    display: inline-block;
+    width: 20px;
+    height:20px;
+    background: url(./assets/icons/orange-right-arrow.svg);
+    vertical-align: text-bottom;
+}
+
+
+
+
+
+.recommended2 {
+    display: block;
+    position: absolute;
+    height: 32px;
+    background:rgb(66, 165, 236);
+    margin: 0 auto;
+    width: 120px;
+    margin: 0 auto;
+    top: -15px;
+    left: calc(50% - 60px);
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color:white;
+    padding: 5px 5px 5px 5px;
+
+
+
+}
+
+
+.recommended3{
+
+    display: block;
+    position: absolute;
+    height: 32px;
+    background:#757575;
+    margin: 0 auto;
+    width: 120px;
+    margin: 0 auto;
+    top: -15px;
+    left: calc(50% - 60px);
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color:white;
+    padding: 5px 5px 5px 5px;
+
+
+
+
+}
+
+.infobackground{
+
+    background-color: black;
+    color: white;
+
+}
+
+
+
 
